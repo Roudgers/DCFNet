@@ -1,6 +1,4 @@
 # DCFNet
- Dynamic Context-Sensitive Filtering Network for Video Salient Object Detection
-# ASTA
 Accepted paper in ICCV2021:
 
 Dynamic Context-Sensitive Filtering Network for Video Salient Object Detection
@@ -8,12 +6,11 @@ Dynamic Context-Sensitive Filtering Network for Video Salient Object Detection
 Miao Zhang, Jie Liu, Yifei Wang, [Yongri Piao](http://ice.dlut.edu.cn/yrpiao/), Shunyu Yao, Wei Ji, Jingjing Li, [Huchuan Lu](http://ice.dlut.edu.cn/lu/publications.html), [Zhongxuan Luo](zxluo@dlut.edu.cn).
 
 # Prerequisites
-+ Ubuntu 18
-+ PyTorch 1.3.1
++ Ubuntu 16
++ PyTorch 1.6.0
 + CUDA 10.1
-+ Cudnn 7.5.1
-+ Python 3.7
-+ Numpy 1.17.3
++ Cudnn 7.5.0
++ Python 3.6
 
 # Training and Testing Datasets
 
@@ -39,5 +36,7 @@ python demo.py
 
 # Contact Us
 If you have any questions, please contact us (xiaofeisun@mail.dlut.edu.cn; 1605721375@mail.dlut.edu.cn).
+
+# Acknowledgement
 
 
