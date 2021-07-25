@@ -44,6 +44,6 @@ If you have any questions, please contact us (1605721375@mail.dlut.edu.cn; dilem
 
 # Acknowledge
 Thanks to the previous helpful works:
-+ [RCRNet](https://github.com/Kinpzz/RCRNet-Pytorch): 'Semi-Supervised Video Salient Object Detection Using Pseudo-Labels' by Pengxiang Yan et al.
-+ [DAVSOD](https://github.com/DengPingFan/DAVSOD): 'Shifting More Attention to Video Salient Object Detection' by Deng-Ping Fan et al.
++ [RCRNet](https://github.com/Kinpzz/RCRNet-Pytorch): 'Semi-Supervised Video Salient Object Detection Using Pseudo-Labels' by Pengxiang Yan, et al.
++ [DAVSOD](https://github.com/DengPingFan/DAVSOD): 'Shifting More Attention to Video Salient Object Detection' by Deng-Ping Fan, et al.
 
