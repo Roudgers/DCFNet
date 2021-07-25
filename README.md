@@ -30,8 +30,8 @@ python inference.py
 ```
 ## training
 + Firstly, you need to modify your path of training dataset
-+ Secondly, you can pretrain the DCFNet_bk following the training settings in the paper
-+ Thirdly, you can train the video model for DCFNet
++ Secondly, you can pretrain the ImageModel for DCFNet following the training settings in the paper
++ Thirdly, you can train the VideoModel for DCFNet
 
 ```shell
 python train.py
