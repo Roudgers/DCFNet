@@ -22,20 +22,23 @@ Miao Zhang, Jie Liu, Yifei Wang, [Yongri Piao](http://ice.dlut.edu.cn/yrpiao/), 
 
 # Train/Test
 ## test
-Firstly, you need to download the 'Testing dataset' and the pretraind checpoint we provided ([Baidu Pan](https://pan.baidu.com/s/1xPH1AzInc1JAMq4Vq7UxGg). Code: d2o0). Then, you need to set dataset path and checkpoint name correctly. and set the param '--phase' as "test" and '--param' as 'True' in demo.py. 
++ Firstly, you need to download the 'Testing dataset' and the pretraind checpoint we provided ([Baidu Pan](https://pan.baidu.com/s/1xPH1AzInc1JAMq4Vq7UxGg). Code: d2o0). 
++ Then, you need to set dataset path and checkpoint name correctly. and set the param '--split' as "test" or 'val' in inference.py. 
 
 ```shell
-python demo.py
+python inference.py
 ```
-## train
-Once the train-augment dataset are prepared,you need to set dataset path and checkpoint name correctly. and set the param '--phase' as "train" and '--param' as 'True'(loading checkpoint) or 'False'(do not load checkpoint) in demo.py. 
+## training
++ Firstly, you need to modify your path of training dataset
++ Secondly, you can pretrain the DCFNet_bk following the training settings in the paper
++ Thirdly, you can train the video model for DCFNet
 
 ```shell
-python demo.py
+python train.py
 ```
 
 # Contact Us
-If you have any questions, please contact us (xiaofeisun@mail.dlut.edu.cn; 1605721375@mail.dlut.edu.cn).
+If you have any questions, please contact us (1605721375@mail.dlut.edu.cn; dilemma@mail.dlut.edu.cn).
 
 # Acknowledgement
 
