@@ -22,9 +22,9 @@ Miao Zhang, Jie Liu, Yifei Wang, [Yongri Piao](http://ice.dlut.edu.cn/yrpiao/), 
 
 # Train/Test
 ## Testing
-+ Firstly, you need to download the 'VSOD Testing Dataset' and the pretrained checpoint we provided ([Baidu Pan](https://pan.baidu.com/s/1qhyEke_1IwO5gVAkepHp0g). Code: oip1). 
++ Firstly, you need to download the 'VSOD Testing Dataset' and the pretrained checkpoint we provided ([Baidu Pan](https://pan.baidu.com/s/1qhyEke_1IwO5gVAkepHp0g). Code: oip1). 
 + Secondly, you need to set dataset path and checkpoint name correctly, and set the param '--split' as "test" or 'val' in inference.py for generating saliency results. 
-+ Finally, you can evaluate the saliency results by using the widely-used tool 
++ Finally, you can evaluate the saliency results by using the widely-used tool provided by DAVSOD.
 
 ```shell
 python inference.py
